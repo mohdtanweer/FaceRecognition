@@ -13,4 +13,5 @@ The face recognition model OpenCV uses to compute the 128-d face embeddings come
 
 ### User Guide
 Run the below command to get the cosine similarity between id and selfie images:
+
 `python face_matching.py -id <path to id image> -s <path to selfie image> -d <path to face detection model> -m <path to embedding model> -o <path to output directory>`
